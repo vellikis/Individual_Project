@@ -1,0 +1,14 @@
+Please run these commands in the terminal for the system to function properly
+
+composer install
+.env file = delete password is there is one
+php artisan migrate
+php artisan key:generate
+php artisan storage:link  (please delete the previous storage and then run this command)
+npm install -include=dev
+npm run build 
+php artisan serve
+composer require laravel/telescope
+php artisan telescope:install
+php artisan migrate
+http://127.0.0.1:8000/telescope (use this link to visit and see the contact form emails)
